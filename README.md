@@ -1,7 +1,7 @@
 `rlsim` - a package for simulating RNA-seq library preparation with parameter estimation
 ========================================================================================
 
-![rlsim architecture](https://raw.github.com/sbotond/rlsim/master/doc/pix/rlsim_main.png)
+![rlsim architecture](https://raw.github.com/bsipos/rlsim/master/doc/pix/rlsim_main.png)
 
 What is the `rlsim` package?
 --------------------------
@@ -39,7 +39,7 @@ be cited as:
 
  - Botond Sipos, Greg Slodkowicz, Tim Massingham, Nick Goldman (2013) *Realistic simulations reveal extensive sample-specificity of RNA-seq biases* *arXiv*:[1308.3172](http://bit.ly/rlsax) 
 
-The analysis pipeline used to generate the results is available at [github.com/sbotond/paper-rlsim](http://bit.ly/rlsim-pl).
+The analysis pipeline used to generate the results is available at [github.com/bsipos/paper-rlsim](github.com/bsipos/paper-rlsim).
 
 `rlsim` was brought to you by the [Goldman group](http://www.ebi.ac.uk/research/goldman) from [EMBL-EBI](http://www.ebi.ac.uk).
 
@@ -184,7 +184,7 @@ written in `Python 2.x` and depend on a couple of packages:
 -   [biopython](https://pypi.python.org/pypi/biopython) >= 1.60
 
 -   A modified version of the [HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html) package available
-    from the GitHub repository under [https://github.com/sbotond/rlsim/tree/master/misc](https://github.com/sbotond/rlsim/tree/master/misc).
+    from the GitHub repository under [https://github.com/bsipos/rlsim/tree/master/misc](https://github.com/bsipos/rlsim/tree/master/misc).
 
     **The official releases of the HTSeq package contain a bug causing
     segmenation fault when parsing certain paired-end datasets. Please
@@ -206,10 +206,10 @@ package (recommended) or any other sequencing simulator.
 Installing the latest release
 -----------------------------
 
-The release tarballs can be obtained from the [releases](https://github.com/sbotond/rlsim/tree/master/releases) directory:
+The release tarballs can be obtained from the [releases](https://github.com/bsipos/rlsim/tree/master/releases) directory:
 
 ```
-    wget https://github.com/sbotond/rlsim/blob/master/releases/rlsim-latest_amd64.tar.gz?raw=true t.tgz -O rlsim-latest_amd64.tar.gz
+    wget https://github.com/bsipos/rlsim/blob/master/releases/rlsim-latest_amd64.tar.gz?raw=true t.tgz -O rlsim-latest_amd64.tar.gz
 ```
 
 The unpacked release directory contains the following files:
@@ -256,11 +256,11 @@ Build dependencies:
 -   Regenerating the test datasets needs the bwa [bwa](http://bio-bwa.sourceforge.net) and 
     [samtools](http://samtools.sourceforge.net) commands to be installed.
 
-The package source can be obtained by cloning the `GitHub` [repository](https://github.com/sbotond/rlsim)
+The package source can be obtained by cloning the `GitHub` [repository](https://github.com/bsipos/rlsim)
 and built by issuing `make` in the top level directory:
 
 ```
-    git clone https://github.com/sbotond/rlsim.git
+    git clone https://github.com/bsipos/rlsim.git
     cd rlsim
     make
 ```
@@ -339,7 +339,7 @@ Quick reference
             cat transcripts.fa | rlsim -n 2000000
 
     For more details consult the package manual at:
-            https://github.com/sbotond/rlsim/tree/master/doc/rlsim_manual.pdf
+            https://github.com/bsipos/rlsim/tree/master/doc/rlsim_manual.pdf
 ```
 
 ### `effest`
@@ -489,4 +489,3 @@ Quick reference
       -b bam        Position sorted and indexed BAM file.
       -o outfile    Output PDF (plot_cov.pdf).
 ```
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/a7401ff83389dacf5bf79399ba749f32 "githalytics.com")](http://githalytics.com/sbotond/rlsim)
