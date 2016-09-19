@@ -39,7 +39,7 @@ be cited as:
 
  - Botond Sipos, Greg Slodkowicz, Tim Massingham, Nick Goldman (2013) *Realistic simulations reveal extensive sample-specificity of RNA-seq biases* *arXiv*:[1308.3172](http://bit.ly/rlsax) 
 
-The analysis pipeline used to generate the results is available at [github.com/bsipos/paper-rlsim](github.com/bsipos/paper-rlsim).
+The analysis pipeline used to generate the results is available at [github.com/bsipos/paper-rlsim](http://github.com/bsipos/paper-rlsim).
 
 `rlsim` was brought to you by the [Goldman group](http://www.ebi.ac.uk/research/goldman) from [EMBL-EBI](http://www.ebi.ac.uk).
 
